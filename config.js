@@ -9,14 +9,16 @@
  environments.staging = {
   'httpPort':  3000,
   'httpsPort': 3001,
-  'envName': 'staging'
+  'envName': 'staging',
+  'hashingSecret': 'thisIsASecret'
  };
 
  // Production environment
  environments.production = {
   'httpPort':  5000,
   'httpsPort': 5001,
-  'envName': 'production'
+  'envName': 'production',
+  'hashingSecret': 'thisIsAnotherSecret'
 };
 
 // Determine which is active environment
