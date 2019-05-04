@@ -1,1 +1,6 @@
-.data/users
+
+*.json
+!.data/users/test.json
+!.data/users/*
+
+
