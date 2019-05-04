@@ -1,6 +1,5 @@
 
-*.json
-!.data/users/test.json
+.data/users/*.json
 !.data/users/*
 
 

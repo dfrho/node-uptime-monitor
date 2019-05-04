@@ -48,7 +48,7 @@ const unifiedServer = function(req, res) {
 
 
   // Get the query string as an object (per 'true' parameter in url.parse method)
-  const queryStrObject = parsedUrl.query;
+  const queryStringObject = parsedUrl.query;
 
   // Get the http method
   const method = req.method.toLowerCase();
@@ -73,7 +73,7 @@ const unifiedServer = function(req, res) {
     // Construct data object to send to handler
     const data = {
       trimmedPath,
-      queryStrObject,
+      queryStringObject,
       method,
       headers,
       payload : helpers.parseJsonToObject(buffer)
