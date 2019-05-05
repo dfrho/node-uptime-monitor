@@ -2,4 +2,5 @@
 .data/users/*.json
 !.data/users/*
 
-
+.data/tokens/*.json
+!.data/tokens/*
