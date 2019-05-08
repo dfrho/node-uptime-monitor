@@ -56,7 +56,7 @@ const unifiedServer = (req, res) => {
   // Get the headers as an object
   const headers = req.headers;
 
-  // Get the payload sent, if any
+  // Get the payload if any
   const decoder = new StringDecoder('utf-8');
   let buffer = '';
   req.on('data', (data) => {
@@ -102,5 +102,5 @@ const unifiedServer = (req, res) => {
 };
 
 // Define a request router
-const { ping, tokens, users } = handlers;
-const router = { ping, tokens, users };
+const { checks, ping, tokens, users } = handlers;
+const router = { checks, ping, tokens, users };

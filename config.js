@@ -7,18 +7,20 @@
 
  // Staging, default environment
  environments.staging = {
-  'httpPort':  3000,
-  'httpsPort': 3001,
-  'envName': 'staging',
-  'hashingSecret': 'thisIsASecret'
+  httpPort:  3000,
+  httpsPort: 3001,
+  envName: 'staging',
+  hashingSecret: 'thisIsASecret',
+  maxChecks: 5
  };
 
  // Production environment
  environments.production = {
-  'httpPort':  5000,
-  'httpsPort': 5001,
-  'envName': 'production',
-  'hashingSecret': 'thisIsAnotherSecret'
+  httpPort:  5000,
+  httpsPort: 5001,
+  envName: 'production',
+  hashingSecret: 'thisIsAnotherSecret',
+  maxChecks: 5
 };
 
 // Determine which is active environment
