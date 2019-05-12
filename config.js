@@ -13,9 +13,9 @@
   hashingSecret: 'thisIsASecret',
   maxChecks: 5,
   twilio : {
-    accountSid: 'AC4fc27e5c7b90352e9df7ccfadf372897',
-    authToken: '3b5cf94a1ff12143a4f9aea7bc4d04dc',
-    fromPhone: '+15166991838'
+    accountSid: '',
+    authToken: '',
+    fromPhone: '+'
   }
  };
 
