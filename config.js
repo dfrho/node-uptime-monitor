@@ -11,7 +11,12 @@
   httpsPort: 3001,
   envName: 'staging',
   hashingSecret: 'thisIsASecret',
-  maxChecks: 5
+  maxChecks: 5,
+  twilio : {
+    accountSid: 'AC4fc27e5c7b90352e9df7ccfadf372897',
+    authToken: '3b5cf94a1ff12143a4f9aea7bc4d04dc',
+    fromPhone: '+15166991838'
+  }
  };
 
  // Production environment
@@ -20,7 +25,12 @@
   httpsPort: 5001,
   envName: 'production',
   hashingSecret: 'thisIsAnotherSecret',
-  maxChecks: 5
+  maxChecks: 5,
+  twilio : {
+    accountSid: '',
+    authToken: '',
+    fromPhone: ''
+  }
 };
 
 // Determine which is active environment
