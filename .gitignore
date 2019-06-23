@@ -4,3 +4,5 @@
 
 .data/tokens/*.json
 !.data/tokens/*
+
+*.env
